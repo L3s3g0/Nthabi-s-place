@@ -9,7 +9,7 @@
     .gallery{
         display: grid;
         width: 100%;
-        height: 70vh;
+        height: 80vh;
         grid-template-rows: 15% 85%;
         overflow-y: scroll;
     }
