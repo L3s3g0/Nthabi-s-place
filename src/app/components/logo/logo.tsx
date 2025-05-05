@@ -10,7 +10,7 @@ const LogoFont = Yellowtail({
 export default function LOGO(){
     return(
         <div className="flex">
-            <h1 className={`${LogoFont.className} text-3xl text-red-300`}>Nthabi-s Place</h1>
+            <h1 className={`${LogoFont.className} text-3xl text-red-300`}>Nthabi&apos;s Place</h1>
             <Image src={building} alt="" className="w-[2.2rem] h-[2.2rem] opacity-[0.8] mx-[0.2rem]"/>
         </div>
     )
