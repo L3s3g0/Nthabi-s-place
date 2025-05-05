@@ -1,0 +1,14 @@
+
+.main{
+    height: 80vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 15% auto 15%;
+    overflow-y: scroll;
+}
+
+.rooms{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 20rem));
+    justify-content: center;
+}

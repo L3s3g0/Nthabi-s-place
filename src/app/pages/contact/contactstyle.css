@@ -1,0 +1,49 @@
+
+@media screen and (max-width: 859px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .contactPage{
+        display: grid;
+        grid-template-rows: 15% 85%;
+        width: 100%;
+        height: 55vh;
+    }
+
+    .contact{
+        display: block;
+        grid-template-columns: 40% 20% 30%;
+        padding: 0.6rem 0.4rem;
+    }
+    
+    .contactDetails ul li{
+        margin-bottom: 0.8rem;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .contactPage{
+        display: grid;
+        grid-template-rows: 15% 85%;
+        width: 100%;
+        height: 60vh;
+    }
+    
+    .contact{
+        display: grid;
+        grid-template-columns: 40% 20% 30%;
+    }
+    
+    .contactDetails ul li{
+        margin-bottom: 0.8rem;
+    }   
+}

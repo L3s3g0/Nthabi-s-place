@@ -1,0 +1,50 @@
+
+
+@media screen and (max-width: 859px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .page{
+        width: 100%;
+        height: 60vh;
+        position: relative;
+        display: grid;
+        grid-template-rows: 15% 85%;
+    }
+
+    .aboutCont{
+        display: grid;
+        grid-template-columns: 0% 100%;
+        text-align: center;
+    }
+
+    .text{
+        width: 100%;
+        padding: 0.8rem 1rem;
+    }
+}
+
+@media screen and (min-width: 860px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .page{
+        width: 100%;
+        height: 80vh;
+        position: relative;
+        display: grid;
+        grid-template-rows: 15% 85%;
+    }
+
+    .aboutCont{
+        display: grid;
+        grid-template-columns: 40% 60%;
+        padding: 2rem 6rem;
+    }
+}
