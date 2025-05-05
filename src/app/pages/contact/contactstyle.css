@@ -10,7 +10,7 @@
         display: grid;
         grid-template-rows: 15% 85%;
         width: 100%;
-        height: 55vh;
+        height: 80vh;
     }
 
     .contact{
