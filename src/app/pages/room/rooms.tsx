@@ -3,7 +3,7 @@ import Image from "next/image";
 import show1 from "../room/imgs/show1.jpg"
 import show2 from "../room/imgs/show2.jpg"
 import show3 from "../room/imgs/show4.jpg"
-import { Great_Vibes, Poppins } from "next/font/google"
+import { Great_Vibes } from "next/font/google"
 
 const Head = Great_Vibes({
     weight: "400",
