@@ -8,7 +8,7 @@ const det = Poppins({
 export default function FOOTER(){
     return(
         <div className="h-[3rem] bg-gray-600 flex justify-center items-center">
-            <p className={`${det.className} text-lg text-white text-center`}>Copyright @Nthabi-s Place, All Rights Reserved. Developed by the folks.</p>
+            <p className={`${det.className} text-lg text-white text-center`}>Copyright @Nthabi&apos;s Place, All Rights Reserved. Developed by the folks.</p>
         </div>
     )
 }
