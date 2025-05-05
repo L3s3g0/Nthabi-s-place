@@ -1,6 +1,6 @@
 import"./gallerystyle.css"
 import Image from "next/image"
-import { Great_Vibes, Poppins } from "next/font/google"
+import { Great_Vibes } from "next/font/google"
 import image1 from "../gallery/Imgs/dining.jpg"
 import image2 from "../gallery/Imgs/massage.jpg"
 import image3 from "../gallery/Imgs/topview.jpg"
